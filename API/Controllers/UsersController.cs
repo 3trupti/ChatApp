@@ -11,7 +11,7 @@ using SQLitePCL;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("api/[Controller]/[action]")]
+    [Route("api/users")] 
     public class UsersController:ControllerBase
     {
         private readonly DataContext _context;

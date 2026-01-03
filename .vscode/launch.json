@@ -30,6 +30,16 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
-        }
+        },
+        // 👇 Add Angular debugger config HERE
+    {
+      "name": "Debug Angular (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}/client",
+      "sourceMaps": true,
+      "skipFiles": ["<node_internals>/**"]
+    }
     ]
 }
