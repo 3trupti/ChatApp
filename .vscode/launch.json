@@ -36,7 +36,7 @@
       "name": "Debug Angular (Chrome)",
       "type": "chrome",
       "request": "launch",
-      "url": "http://localhost:4200",
+      "url": "https://localhost:4200",
       "webRoot": "${workspaceFolder}/client",
       "sourceMaps": true,
       "skipFiles": ["<node_internals>/**"]
